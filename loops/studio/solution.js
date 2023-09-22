@@ -2,21 +2,29 @@ const input = require('readline-sync');
 
 // Part A: #1 Populate these arrays
 
-let protein = [];
-let grains = [];
-let veggies = [];
-let beverages = [];
-let desserts = [];
+let protein = ['chicken', 'pork', 'tofu', 'beef', 'fish', 'beans'];
+let grains = ['rice', 'pasta', 'corn', 'potato', 'quinoa', 'crackers'];
+let veggies = ['peas', 'green beans', 'kale', 'edamame', 'broccoli', 'asparagus'];
+let beverages = ['juice', 'milk', 'water', 'soy milk', 'soda', 'tea'];
+let desserts = ['apple', 'banana', 'more kale', 'ice cream', 'chocolate', 'kiwi'];
+// let numMeals = [];
 
 
 function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
   let pantry = [protein, grains, veggies, beverages, desserts];
   let meals = [];
-  
+
   /// Part A #2: Write a ``for`` loop inside this function
   /// Code your solution for part A #2 below this comment (and above the return statement) ... ///
 
-
+  for(let i = 0; i < mealCount; i++){
+   let meals = []
+  }
+    for(let j = 0; j < pantry.length; j++){
+      meals.push(pantry[i][j])
+    }{
+   meals.push
+    }
   return meals;
 }
 
@@ -25,6 +33,9 @@ function askForNumber() {
   numMeals = input.question("How many meals would you like to make?");
   
   /// CODE YOUR SOLUTION TO PART B here ///
+  while(i > 1 || i < 7){
+      numMeals = 
+  }
 
   return numMeals;
 }
