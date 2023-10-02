@@ -33,9 +33,9 @@ function askForNumber() {
   numMeals = input.question("How many meals would you like to make?");
   
   /// CODE YOUR SOLUTION TO PART B here ///
-  while(i > 1 || i < 7){
-      numMeals = 
-  }
+  // while(i > 1 || i < 7){
+  //     numMeals = 
+  // }
 
   return numMeals;
 }
@@ -56,8 +56,8 @@ function runProgram() {
   /// Change the final input variable (aka numMeals) here to ensure your solution makes the right number of meals ///
   /// We've started with the number 2 for now. Does your solution still work if you change this value? ///
   
-  // let meals = mealAssembly(protein, grains, veggies, beverages, desserts, 2);
-  // console.log(meals)
+  let meals = mealAssembly(protein, grains, veggies, beverages, desserts, 2);
+  console.log(meals)
   
 
   /// TEST PART B HERE ///

@@ -5,6 +5,21 @@
     d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
 
 
+    // for (let i = 0; i < 21; i++){
+    //   console.log(i);
+    // }
+
+    // for (let i = 0; i < 30; i = i + 1){
+    //   console.log(i)
+    // }
+
+    // for(let i = 12; i > -15; i--){
+    //   console.log(i)
+    // }
+
+    // for(let i = 50; i > 19; i = i-3){
+    //   console.log(i)
+    // }
 
 
 /*Exercise #2: 
@@ -16,6 +31,19 @@ Construct ``for`` loops to accomplish the following tasks:
   b. Print each character of the string - in reverse order - to a new line. */ 
 
 
+let var1 = "LaunchCode";
+let var2 = [1, 5, 'LC101', 'blue', 42];
+let reverse = "";
+
+// for(let i = 0; i < var2.length; i++){
+//   console.log(var2[i])
+// }
+
+// for(let i = 0; i < var1.length; i++){
+//   reverse = var1[i] + reverse;
+// }
+
+// console.log(reverse)
 
 
 
