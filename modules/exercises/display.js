@@ -1,5 +1,8 @@
 //TODO: Export ONLY the printAll function.
 
+const printAll = require('.ScoreCalcs/averages.js')
+
+
 function printAll(names, tests, scores){
   let header = 'Name';
   let row = '';
@@ -34,3 +37,5 @@ function printTestScores(index,test,students,scores){
   }
   return;
 }
+
+
