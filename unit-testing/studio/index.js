@@ -16,7 +16,15 @@ let launchcode = {
         }
         result += "Rocks";
     }
+    if (result.length === 0){
+      return = "Rutabages! That doesn't work."
+    } else {
     return result += "!";
+    }
+    if (result === "Launch Rocks!") {
+      result += "(CRASH!!!!)";
+    }
+    return result;
   }
 };
 

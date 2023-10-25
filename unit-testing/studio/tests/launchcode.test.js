@@ -48,6 +48,10 @@ describe("Testing launchcode object", function(){
     it("Should return 'Launch Rocks!' for numbers evenly divisible by only 2 and 5", function(){
       expect(launchcode.LaunchOutput(10)).toEqual("Launch Rocks");
     });
+
+    it("Should return 'Rutabagas! That doesn't work.' for numbers NOT evenly divisible by 2, 3, or 5", function(){
+      expect(launchcode.LaunchOutput(7)).toEqual("Rutabagas! That doesn't work.");
+    });
   });
 
 });
