@@ -4,8 +4,16 @@
 	<meta charset="utf-8">
 	<script>
 		// TODO: create a handler
+	 function setSearchEngine(){
+			console.log("hello there");
+		}
+
     window.addEventListener("load", function(){
         // TODO: register the handler
+		const form = document.getElementById("searchForm")
+
+		form.addEventListener("submit", setSearchEngine);
+
     });
 	</script>
 </head>
@@ -14,6 +22,22 @@
 
 	<form id="searchForm">
     <!-- TODO: add form elements -->
+
+	<label>Text Box <input type = "text" name = "q" id = "q"></label>
+
+	<label> <input type = "radio" name = "engine" value = "google" /> Google </label>
+
+	<label> <input type = "radio" name = "engine" value = "duckDuckGo" /> DuckDuckGo </label>
+
+	<label> <input type = "radio" name = "engine" value = "bing" /> Bing </label>
+
+	<label> <input type = "radio" name = "engine" value = "ask" /> Ask </label>
+
+	<input type = "submit" value = "Go!"/>
+
+	<!-- <button>Go!</button> -->
+
+
 	</form>
 
 </body>

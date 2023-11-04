@@ -49,7 +49,7 @@ up.addEventListener("click", function (event) {
     // let goUp = confirm("Confirm that you want to abort the mission.");
 
     // if(needToAbort){
-        rocket.style.left += 10px;
+        rocket.style.left +=
         // flightStatus.innerHTML = ("Mission aborted.");
         // shuttleBackground.style.backgroundColor = "green";
         // spaceShuttleHeight.innerHTML = 0;
